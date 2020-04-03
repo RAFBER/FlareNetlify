@@ -4,6 +4,14 @@ Deploy a webhelp built with MadCap Flare to Netlify.
 
 Preview the output of this repo at https://flare-netlify.netlify.com.
 
+## Why Netlify?
+
+- A generous free hosting tier.
+- You don't have to think about server configuration and maintenance.
+- All the benefits of their global CDN, designed for performance and scale.
+- Automatic deploy previews on pull requests. This means you (and reviewers) can view a preview of the site before merging and deploying your changes.
+- Super-simple [redirects](https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file).
+
 ## Prerequisites
 
 1. An existing Flare project with an HTML5 target that you want to deploy. We won't walk through creating and editing a project here.
