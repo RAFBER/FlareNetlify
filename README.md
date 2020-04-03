@@ -17,7 +17,7 @@ Preview the output of this repo at https://flare-netlify.netlify.com.
 1. An existing Flare project with an HTML5 target that you want to deploy. We won't walk through creating and editing a project here.
 2. Your Flare project should be under git version control and stored in GitHub, GitLab or Bitbucket. The following instructions assume you are using the cloud versions. If you are using self-hosted version control, it should still be possible to set up a Netlify integration, but there'll be a few more steps. Talk to your devops team.
 
-## Steps
+## Quickstart
 
 1. In your Flare project, create a folder to store the built output. In the example project in this repo, it's called `_site`.
 2. Log in to [Netlify](https://www.netlify.com/) and go through the steps to create a new site from git. There's a video [here](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) in the Netlify docs. Unfortunately the material is only available as video, but it's less than two minutes and has closed captions. Make sure to set the **Publish directory** to the name of the directory you created in step one.
